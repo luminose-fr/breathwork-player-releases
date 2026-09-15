@@ -1,0 +1,5 @@
+# generate_appcast retires superseded archives here. They are kept on the
+# release Mac so deltas can still be built against them, not published.
+old_updates/
+
+.DS_Store
