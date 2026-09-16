@@ -3,6 +3,26 @@
     <channel>
         <title>BreathworkPlayer</title>
         <item>
+            <title>1.1.2</title>
+            <pubDate>Wed, 16 Sep 2026 15:08:57 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>BreathworkPlayer 1.1.2</h2>
+<ul>
+  <li>Update</li>
+  <li>Donne le clavier à la liste qu'on vient de cliquer</li>
+  <li>Écoute la barre d'espace au niveau d'AppKit</li>
+  <li>Rend le clavier à la fenêtre principale</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer-1.1.2.zip" length="38705793" type="application/octet-stream" sparkle:edSignature="9Az43K4ZPgo6Ga/lPzcGXGtFZkh3Zy3vYWpRu9zWHIEQV0ZE404ppIV5Z9tfn2CiTrnAv7N3LLe6VPpNCuh5BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer4-3.delta" sparkle:deltaFrom="3" length="719702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Fa46vR5gTb12oBRKiw1WuQ216BOF+rxozZh3CBg8URmC9qUpWFH14CZjHhm438OTp4M0amTIQmNe7k/8kzIBAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer4-2.delta" sparkle:deltaFrom="2" length="845878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gwMxXT8PXY1dfn+hwJszvO4G9XVuFt6i7wGVe/p/hFHu+9JOppIcxdEiMXW+HYQUd9HNYtP5u/8lPnOHP8HlAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Wed, 16 Sep 2026 13:40:36 +0200</pubDate>
             <sparkle:version>3</sparkle:version>
