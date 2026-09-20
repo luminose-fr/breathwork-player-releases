@@ -3,6 +3,26 @@
     <channel>
         <title>BreathworkPlayer</title>
         <item>
+            <title>1.2.8</title>
+            <pubDate>Sun, 20 Sep 2026 20:28:21 +0200</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>BreathworkPlayer 1.2.8</h2>
+<ul>
+  <li>Trace la courbe d'énergie de la séance le long du rail des phases</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer-1.2.8.zip" length="38746942" type="application/octet-stream" sparkle:edSignature="07ddvhhqBlWeqoeKz66MtYwC8INcfmHex2ZmEhhnUF0bxtiE9DHsAb1Rced9b2T2/Y5QgCPQIs0Mk+NFpxkoCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer14-13.delta" sparkle:deltaFrom="13" length="711814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J8uvgXKP7Fi2LaRjGlEdQBBbnPQhpG0icjtN0hrmmYPEFj6jBdcW5kaydiniIO0QVr+S3ZpdOP2UFusFoKi7BA=="/>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer14-12.delta" sparkle:deltaFrom="12" length="832682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DVKaTgLATNQ0CujtrozcY+FQmqRB0OQRr9VXei0dQoSkYcetNxuxu3xGTapPYvs7vRjafNIZaam0EIAEaHUnCQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer14-11.delta" sparkle:deltaFrom="11" length="855766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Voam4S2prNDb2LogxftO7b91Fo3i/+jlNiA/0BzejCTlm3i6wiboMbWLGU/Fgj7JTSSlfiqUkbn1qI9jBWOQAg=="/>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer14-10.delta" sparkle:deltaFrom="10" length="888358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OjOrcxV11CscqEyi+Y28bRSZVcRZi4cnnusOwaaNxgWigD30hHyKdITw7ZllBLRQSDduI4R+9nd+cVtrP9bnBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer14-9.delta" sparkle:deltaFrom="9" length="923614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RtAT2BIOr4ksEMF2p/5dBzIQyU9i5egiKh2/XRVuqSRNyEpG4PVZtGKq3OlH9BJNLPSp+Loka8oN1PsGAAL5AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.7</title>
             <pubDate>Sun, 20 Sep 2026 20:01:20 +0200</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -41,28 +61,6 @@
                 <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer12-9.delta" sparkle:deltaFrom="9" length="777974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QkTE1Eoql/bOB5JcnZGIp42+5jeFV9/K4lD32eReTWfjO9s8eEAp68590BhcQgRYwBzLl1H/vKZ+yhQ1BdqTCg=="/>
                 <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer12-8.delta" sparkle:deltaFrom="8" length="790366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Odhfl2nW2DDGfg8v+wMJkPEYOlRLjvJaHsu1StPRJHT6vJAzCQ1+tUFkPKLgo5WT2UwyGn4xH3TI4aj9CTm3CA=="/>
                 <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer12-7.delta" sparkle:deltaFrom="7" length="836506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IojybJHBz9Wu165N+8662buNCmzXbdBKn/mITDjFLbPwN6AhJhnuIzYNb5+VwXWgGeR+vXXOn/qdPWLwKZPdAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.5</title>
-            <pubDate>Sun, 20 Sep 2026 09:52:07 +0200</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>BreathworkPlayer 1.2.5</h2>
-<ul>
-  <li>Rend le diviseur redimensionnable là où il traverse la toolbar</li>
-  <li>Sort le compte-rendu d'analyse de la capsule de sortie audio</li>
-  <li>Update TODO.md with new improvement suggestions</li>
-</ul>
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer-1.2.5.zip" length="38721742" type="application/octet-stream" sparkle:edSignature="0AvK6uliczURmRIxbFS7hrj5N9UrSEzAfe5iu9rWcAFJCm9M6uxlGkPtiNykBdZs+6/AIhzATq+pTTdC7lWeAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer11-10.delta" sparkle:deltaFrom="10" length="722450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xIb0GNBAquYHeBMvCbN6EhjzG8HPDd/abFxuwY6MqaP4JHRTtxQUKq8NTkyIsTmsEYAIoAFpm8GjyqtxXhlrDw=="/>
-                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer11-9.delta" sparkle:deltaFrom="9" length="761230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ScOV8fHPJ+7X6r2N980XAAU/4y1ESh7dEKQ0LQnfxQRcsZDmQ/ATA1ZjBQ4m1bt/OG4znhciNChXhmSlIywhBw=="/>
-                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer11-8.delta" sparkle:deltaFrom="8" length="790770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z2w9aH2lFK9LrvKufddVRvRq+ZMDms5hjZqfwBpoXCueuIYiwUaLCKX4K4uX7+GFtVM2upGwiR3PrB930p52DA=="/>
-                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer11-7.delta" sparkle:deltaFrom="7" length="819122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t8wfg2YmorwWZ2tUGVZNgw+URVj1TWtrbj+n2b/tLBDebYWQZPQhR0hvKXB+8x6n1cm7+mJ7s91QyYcq3Z0KBQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer11-6.delta" sparkle:deltaFrom="6" length="847962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="825968" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hpvUOLEggiw9bExwO57spo5qH02ilO7VRjagIExi6r+XlgVLdET26uuaIF+n5XnBPYMkAqaoqCEyYDRqjKV0Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>
