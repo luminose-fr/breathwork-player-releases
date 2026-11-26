@@ -3,6 +3,25 @@
     <channel>
         <title>BreathworkPlayer</title>
         <item>
+            <title>1.5.0</title>
+            <pubDate>Thu, 26 Nov 2026 17:24:34 +0100</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Breathwork Player 1.5.0</h2>
+<p>Cette version nécessite un Mac Apple Silicon sous macOS 27 ou ultérieur.</p>
+<ul>
+  <li>L’analyse musicale combine Apple et CLAP et fonctionne entièrement sur le Mac. Elle calcule l’énergie, la stabilité et la densité, affine la détection des voix et indique jusqu’à deux instruments dominants.</li>
+  <li>Les playlists, les phases et l’ordre des morceaux sont conservés. À l’ouverture d’une bibliothèque 1.4.3, l’analyse reprend en arrière-plan. Les résultats déjà obtenus avec la bêta 1.5 sont reconnus.</li>
+  <li>En mode Session, les phases et la courbe d’énergie se lisent à l’horizontale. En Préparation, la sélection d’un morceau repère son passage sur la courbe.</li>
+  <li>Le dépôt de morceaux dans les phases vides et en fin de phase est amélioré. Les réglages des modèles de playlist proposent une palette de couleurs et enregistrent les modifications automatiquement.</li>
+  <li>La bibliothèque suit les changements dans les dossiers musicaux et signale les fichiers indisponibles. Une progression accompagne la reconnexion d’un dossier. Le réglage « Présence en playlist » présente les dossiers en arborescence.</li>
+</ul>
+]]></description>
+            <sparkle:fullReleaseNotesLink>https://github.com/luminose-fr/breathwork-player-releases/releases/tag/v1.5.0</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/luminose-fr/breathwork-player-releases/releases/download/v1.5.0/BreathworkPlayer-1.5.0.zip" length="304021757" type="application/octet-stream" sparkle:edSignature="qjMkaXuPDaDWkIv5gASTmJTuQhGygH74kOhkt4iFRi7dUXQRFyGCLnw7I9gLSI5jKQdz2Qf12Jq2qzuZ8t7DCA=="/>
+        </item>
+        <item>
             <title>1.4.3</title>
             <pubDate>Thu, 19 Nov 2026 23:38:32 +0100</pubDate>
             <sparkle:version>23</sparkle:version>
