@@ -8,7 +8,8 @@
             <sparkle:version>24</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Breathwork Player 1.5.0</h2>
+            <description><![CDATA[<meta charset="utf-8">
+<h2>Breathwork Player 1.5.0</h2>
 <p>Cette version nécessite un Mac Apple Silicon sous macOS 27 ou ultérieur.</p>
 <ul>
   <li>L’analyse musicale combine Apple et CLAP et fonctionne entièrement sur le Mac. Elle calcule l’énergie, la stabilité et la densité, affine la détection des voix et indique jusqu’à deux instruments dominants.</li>
