@@ -1,32 +1,20 @@
-# Breathwork Player — releases
+# Breathwork Player releases
 
-The update feed for [Breathwork Player](https://github.com/luminose-fr/breathwork-player).
-Public because Sparkle reads it over plain HTTPS with no credentials; the app's
-source stays private.
+This repository serves the [Sparkle update feed](appcast.xml) and the release notes for Breathwork Player.
 
-Nothing here is written by hand. `scripts/release.sh` in the app repo builds the
-app, signs the archive with an EdDSA key that never leaves the release Mac's
-Keychain, and rewrites `appcast.xml`. The only manual step is the push.
+## Installation
 
-| File | What it is |
-|------|------------|
-| `appcast.xml` | the feed the app polls, pointed at by `SUFeedURL` |
-| `BreathworkPlayer-<version>.zip` | the app bundle for that version |
-| `BreathworkPlayer-<version>.html` | its release notes, shown in the update window |
-| `*.delta` | binary patches between consecutive versions, so an update downloads a few MB instead of the whole app |
+Download the signed ZIP from the [latest release](https://github.com/luminose-fr/breathwork-player-releases/releases/latest), extract it and copy BreathworkPlayer.app to Applications. Version 1.5.0 requires Apple Silicon and macOS 27. The [1.4.3 archive](BreathworkPlayer-1.4.3.zip) remains available for macOS 26.
 
-## Installing the first time
+The app is signed ad hoc. For a trusted first install downloaded from this repository, clear its quarantine flag after copying the app to Applications:
 
-Sparkle takes over from the second version onwards. The first install is manual:
-
-```bash
-curl -L -o BreathworkPlayer.zip \
-  https://raw.githubusercontent.com/luminose-fr/breathwork-player-releases/main/BreathworkPlayer-<version>.zip
-unzip BreathworkPlayer.zip -d /Applications
+```sh
 xattr -dr com.apple.quarantine /Applications/BreathworkPlayer.app
 ```
+Subsequent updates are authenticated with the public key in the installed app. Choose **Check for Updates…** in the app menu to check immediately.
 
-That last line is needed once per Mac. The app is signed ad-hoc rather than with
-a Developer ID, so Gatekeeper refuses a copy that arrived with a quarantine flag
-from a browser or `curl`. Updates delivered by Sparkle are not affected — it
-clears the flag itself before installing.
+## Distribution
+
+The feed lists each build’s minimum macOS version, download URL and Sparkle archive signature. Starting with 1.5.0 the ZIP is attached to the corresponding GitHub Release. Earlier ZIPs and patches keep their existing locations so older installations can still update.
+
+When publishing a new version, upload its signed ZIP to the public tag and confirm that the download is available before pushing the commit containing the updated feed to `main`.
