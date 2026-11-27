@@ -1,7 +1,27 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>BreathworkPlayer</title>
+        <title>Aquilon</title>
+        <item>
+            <title>1.5.1</title>
+            <pubDate>Fri, 27 Nov 2026 23:09:42 +0100</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<meta charset="utf-8">
+<h2>Aquilon 1.5.1</h2>
+<p>Breathwork Player devient Aquilon. La mise à jour conserve votre bibliothèque, vos playlists, vos analyses et vos réglages. Elle nécessite un Mac Apple Silicon sous macOS 27 ou ultérieur.</p>
+<ul>
+  <li>L’interface Iris propose une apparence claire ou sombre et suit par défaut celle de macOS. Le lecteur reste accessible en bas de la bibliothèque.</li>
+  <li>En Session, le panneau de playlists garde sa position. La file affiche tous les morceaux, suit la lecture et permet de remonter aux titres déjà passés.</li>
+  <li>Le moteur audio Apple remplace BASS. L’égaliseur est retiré. Le choix de sortie, la normalisation du volume et la reprise sur les haut-parleurs au débranchement du mini-jack restent disponibles.</li>
+  <li>Si une bibliothèque ouverte depuis Finder est absente ou endommagée, la session en cours reste disponible.</li>
+  <li>Le glisser-déposer utilise les transferts natifs de macOS, y compris pour les phases vides, la fin d’une phase et la copie entre playlists.</li>
+</ul>
+]]></description>
+            <sparkle:fullReleaseNotesLink>https://github.com/luminose-fr/breathwork-player-releases/releases/tag/v1.5.1</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/luminose-fr/breathwork-player-releases/releases/download/v1.5.1/Aquilon-1.5.1.zip" length="297518136" type="application/octet-stream" sparkle:edSignature="ElBSb4aQ0q7S/EagUh8YTB7oYoLTYbk/us7cFVk996C6oImqjf67nVGHG5dliqoySEP+oihFA3tYGNRCBwC9Ag=="/>
+        </item>
         <item>
             <title>1.5.0</title>
             <pubDate>Thu, 26 Nov 2026 17:24:34 +0100</pubDate>

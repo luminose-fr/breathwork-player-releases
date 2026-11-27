@@ -1,15 +1,15 @@
-# Breathwork Player releases
+# Aquilon releases
 
-This repository serves the [Sparkle update feed](appcast.xml) and the release notes for Breathwork Player.
+This repository serves the [Sparkle update feed](appcast.xml) and the release notes for Aquilon.
 
 ## Installation
 
-Download the signed ZIP from the [latest release](https://github.com/luminose-fr/breathwork-player-releases/releases/latest), extract it and copy BreathworkPlayer.app to Applications. Version 1.5.0 requires Apple Silicon and macOS 27. The [1.4.3 archive](BreathworkPlayer-1.4.3.zip) remains available for macOS 26.
+Download the signed ZIP from the [latest release](https://github.com/luminose-fr/breathwork-player-releases/releases/latest), extract it and copy Aquilon.app to Applications. Aquilon 1.5 requires Apple Silicon and macOS 27 or later. The [1.4.3 archive](BreathworkPlayer-1.4.3.zip) remains available for macOS 26.
 
 The app is signed ad hoc. For a trusted first install downloaded from this repository, clear its quarantine flag after copying the app to Applications:
 
 ```sh
-xattr -dr com.apple.quarantine /Applications/BreathworkPlayer.app
+xattr -dr com.apple.quarantine /Applications/Aquilon.app
 ```
 Subsequent updates are authenticated with the public key in the installed app. Choose **Check for Updates…** in the app menu to check immediately.
 
