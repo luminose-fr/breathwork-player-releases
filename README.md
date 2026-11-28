@@ -15,6 +15,6 @@ Subsequent updates are authenticated with the public key in the installed app. C
 
 ## Distribution
 
-The feed lists each build’s minimum macOS version, download URL and Sparkle archive signature. Starting with 1.5.0 the ZIP is attached to the corresponding GitHub Release. Earlier ZIPs and patches keep their existing locations so older installations can still update.
+The feed lists each build’s minimum macOS version, download URL and Sparkle archive signature. Starting with 1.5.0 the ZIP is attached to the corresponding GitHub Release. The 1.4.3 ZIP and its patches stay in this repository, at their original addresses, so installations on macOS 26 can still update.
 
 When publishing a new version, upload its signed ZIP to the public tag and confirm that the download is available before pushing the commit containing the updated feed to `main`.
