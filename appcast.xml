@@ -3,6 +3,28 @@
     <channel>
         <title>Aquilon</title>
         <item>
+            <title>1.5.2</title>
+            <pubDate>Sat, 28 Nov 2026 10:47:47 +0100</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<meta charset="utf-8">
+<h2>Aquilon 1.5.2</h2>
+<p>Cette version corrige la fenêtre qui s’ouvrait toujours au même endroit, et renforce la lecture en séance ainsi que la protection des bibliothèques. Le format des bibliothèques ne change pas.</p>
+<ul>
+  <li>La fenêtre principale retrouve la taille et la position qu’elle avait à la fermeture.</li>
+  <li>Si la sortie audio disparaît ou refuse de démarrer, la file et la position de lecture restent en place. La lecture reprend dès qu’une sortie est disponible, ou quand vous appuyez sur Lecture. Aquilon ne saute plus de morceaux dans ce cas.</li>
+  <li>Si la lecture se fige alors qu’elle est affichée en cours, Aquilon le détecte en trois secondes : il passe au morceau suivant en fin de fichier, ou relance le morceau à la même position.</li>
+  <li>Avant de mettre à jour le format d’une bibliothèque, Aquilon en enregistre une copie complète dans le dossier Backups de la bibliothèque et conserve les deux plus récentes.</li>
+  <li>Une bibliothèque ouverte en dernier par une version plus récente d’Aquilon n’est plus ouverte par une version plus ancienne. Elle reste intacte.</li>
+  <li>Si la dernière bibliothèque ne peut pas être rouverte au lancement, l’écran d’accueil en indique la raison.</li>
+  <li>Retirer un dossier de musique conserve les morceaux qu’un autre dossier de musique contient encore, avec leurs entrées de playlist et leurs analyses.</li>
+</ul>
+]]></description>
+            <sparkle:fullReleaseNotesLink>https://github.com/luminose-fr/breathwork-player-releases/releases/tag/v1.5.2</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/luminose-fr/breathwork-player-releases/releases/download/v1.5.2/Aquilon-1.5.2.zip" length="297534744" type="application/octet-stream" sparkle:edSignature="zrEsFVUlZyXuSEaZJtiKXd68gjvumHKv6oCaf3ZcjwOPmx8f9Ls8hmApG+61avZmhIJxYW4ICyoCt5ANUBk3Dg=="/>
+        </item>
+        <item>
             <title>1.5.1</title>
             <pubDate>Fri, 27 Nov 2026 23:09:42 +0100</pubDate>
             <sparkle:version>25</sparkle:version>
